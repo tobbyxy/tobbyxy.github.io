@@ -11,7 +11,7 @@ thumbnail: assets/img/enrichment_analysis.jpg
 > Enrichment analysis is common, but is it done properly?
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/enrichment_analyseis.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/enrichment_analysis.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/enrichment_analysis.jpg" class="img-fluid rounded z-depth-1" %}
