@@ -8,6 +8,8 @@ categories: sample-posts
 #thumbnail: assets/img/9.jpg
 ---
 
+> Enrichment analysis is common, but is it done properly?
+Let's dive in.
 
 If you've spent time in genomics data analysis, you've likely encountered a list of genes you wanted to understand biologically. This is a common interest for biologists after a sequencing experiment or analysis.
 Overrepresentation analysis (ORA) is a frequently employed method, but it is often prone to inaccuracies due to the presence of many false positives in the results( reference in the literature). So, what exactly is overrepresentation analysis (ORA)?
