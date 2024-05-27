@@ -18,8 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a learning junkie, currently interested in technology(computers) , biology(life) and statistics(decision making). There is a term for it "Bioinformatics".
-PhD'ing at Iowa State. Prev Masters UND.
+
 Learning is my passion. I'm a student of life. These days I;m interested in technology, statistics and science. PhD'ing at Iowa State. Prev Masters at UND.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
