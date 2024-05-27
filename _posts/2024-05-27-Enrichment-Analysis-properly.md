@@ -27,6 +27,7 @@ Overrepresentation analysis (ORA) is a frequently employed method, but it is oft
 
 ORA aims to determine if established biological functions or gene sets are disproportionately represented in a list generated through experimentation. It involves comparing an experimentally derived gene list to a database of gene sets with known functions. The goal is to identify whether certain known biological functions are significantly overrepresented in the experimentally derived gene list.
 Enrichment analysis has become widely accessible, leading to the development of numerous packages and tools for simplified analysis. However, some users may input their gene lists without a suitable background gene set for comparison, potentially resulting in false positive enrichments.
+
 What is a background gene set?
 
 The choice of background genes is critical as it determines which functionally enriched gene sets might appear overrepresented in our gene list. It's important to recognize that altering this background selection can significantly impact our analysis results.
@@ -41,13 +42,14 @@ The improved relevance of terms in the second analysis is indeed primarily attri
 The misconception that all genes in the genome should be used as a background is a common one. Many popular tools do allow this option, and users may default to it because they might not fully understand the underlying statistical tests. Often, the desire to obtain relevant terms aligned with their hypothesis takes precedence.
 This underscores the importance of educating users about the significance of selecting an appropriate background gene set in enrichment analysis to ensure more meaningful and accurate results.
 An alternative approach, which is both useful and recommended, is to use the intersection of the genes measured in the tissue of interest and the genes annotated in the gene sets. This strategy enhances the relevance of the background gene set by focusing on genes that are actually expressed or relevant in your specific experimental context. It can lead to more precise and biologically meaningful enrichment analysis results compared to using all genes in the genome as the background.
+
 Another useful or proposed alternative to not using all the genes in the genome is to use an intersection of the genes measured in the tissue of interest and genes annotated in the gene sets.
 This post is a call to bring more awareness to understanding the concept of statistical assumption being tested before applying bioinformatics tools and software.
 While enrichment analysis is a common practice, the critical aspect of selecting appropriate background genes is often overlooked. This post serves as a vital reminder to maintain awareness of the underlying statistical assumptions when applying bioinformatics tools, especially in the context of enrichment analysis. This heightened awareness can lead to more accurate and meaningful scientific discoveries.
 
-references:
-https://twitter.com/mdziemann/status/1626407797939384320?ck_subscriber_id=1894846079&utm_source=convertkit&utm_medium=email&utm_campaign=Resending%3A+15+links+for+gene+set+enrichment+analysis%21%20-%2011766833
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4561415/?ck_subscriber_id=1894846079&utm_source=convertkit&utm_medium=email&utm_campaign=Resending%3A+15+links+for+gene+set+enrichment+analysis%21%20-%2011766833
+References:
+[Thread on twitter](https://twitter.com/mdziemann/status/1626407797939384320?ck_subscriber_id=1894846079&utm_source=convertkit&utm_medium=email&utm_campaign=Resending%3A+15+links+for+gene+set+enrichment+analysis%21%20-%2011766833)
+[NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4561415/?ck_subscriber_id=1894846079&utm_source=convertkit&utm_medium=email&utm_campaign=Resending%3A+15+links+for+gene+set+enrichment+analysis%21%20-%2011766833)
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
 #### Hipster list
