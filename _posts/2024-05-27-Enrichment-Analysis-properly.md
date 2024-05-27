@@ -5,10 +5,21 @@ date: 2024-05-27 21:01:00
 description: 
 tags: Methods
 categories: sample-posts
-#thumbnail: assets/img/9.jpg
+#thumbnail: assets/img/enrichment_analyses.jpg
 ---
 
 > Enrichment analysis is common, but is it done properly?
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/enrichment_analyses.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/enrichment_analyses.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Image from Cluster profiler showing significantly enriched biological processes
+</div>
 Let's dive in.
 
 If you've spent time in genomics data analysis, you've likely encountered a list of genes you wanted to understand biologically. This is a common interest for biologists after a sequencing experiment or analysis.
