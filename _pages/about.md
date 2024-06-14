@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-Learning is my passion. I'm a student of life. These days I;m interested in technology, statistics and science. PhD'ing in Bioinformatics @ Iowa State. Prev Masters @ UND.
+Learning is my passion. Documenting interesting things I find along the way. PhD'ing in Bioinformatics @ Iowa State. Prev Masters @ UND.
 
 
 
