@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Network Analysis of Game of Thrones
-date: 2024-05-29 08:57:00-0400
+date: 2024-06-14 08:57:00-0400
 description: Data Camp Fun Project
 tags:  jupyter Datacamp
 categories: fun project
