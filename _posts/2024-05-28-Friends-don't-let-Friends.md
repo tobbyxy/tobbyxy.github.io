@@ -108,3 +108,8 @@ plt.tight_layout()
 # Save the figure as a PDF in the 'Figures' folder
 plt.savefig('Figures/mean_seperation.pdf', format='pdf')
 ```
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mean_seperation.pdf" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
