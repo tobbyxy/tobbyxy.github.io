@@ -32,3 +32,36 @@ def is_palindrome(s):
 def is_palindrome(s):
     return s == ''.join(reversed(s))
 ```
+
+# Dictionary
+
+## Exercise
+“Why do keys in Python dictionaries have to be hashable?”
+
+Dictionaries have a method called get that takes a key and a default value. If the key appears in the dictionary, get returns the corresponding value; otherwise it returns the default value. For example, here’s a dictionary that maps from the letters in a string to the number of times they appear.
+
+Use get to write a more concise version of value_counts. You should be able to eliminate the if statement.
+
+```Python
+def value_counts(string):
+    counter = {}
+    for letter in string:
+        counter[letter] = counter.get(letter, 0) + 1
+    return counter
+```
+Write a function named has_duplicates that takes a sequence – like a list or string – as a parameter and returns True if there is any element that appears in the sequence more than once.
+
+```Python
+def has_duplicates(s):
+    return len(set(s)) < len(s)
+#example
+has_duplicates('hello')
+```
+
+Write function called find_repeats that takes a dictionary that maps from each key to a counter, like the result from value_counts. It should loop through the dictionary and return a list of keys that have counts greater than 1. You can use the following outline to get started.
+
+```Python
+def find_repeated(counter):
+    return [item for item in counter if counter[item] == 1]
+```
+
