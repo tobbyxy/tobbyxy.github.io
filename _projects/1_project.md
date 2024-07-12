@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Friends don't let Friends (Python)
+description: Data visualization do's and don't in python.
 img: assets/img/12.jpg
 importance: 1
 category: work
