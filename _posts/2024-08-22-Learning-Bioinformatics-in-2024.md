@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Bioinformatics in 2024
-date: 2024-08-22 21:01:00
+date: 2024-08-22 20:01:00
 description: 
 tags: Learn
 categories: post
