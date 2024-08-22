@@ -8,7 +8,7 @@ categories: post
 thumbnail: 
 ---
 
-This is an update from my previous article Learning Bioinformatics in 2023[https://www.linkedin.com/pulse/learning-bioinformatics-2023-step-by-step-guide-tobi-aminu/?trackingId=bw2S8rhEQ7ulbnKLtorkXA%3D%3D]
+This is an update from my previous article Learning Bioinformatics in [2023](https://www.linkedin.com/pulse/learning-bioinformatics-2023-step-by-step-guide-tobi-aminu/?trackingId=bw2S8rhEQ7ulbnKLtorkXA%3D%3D)
 
 Everything still stands, learning the foundation cannot be replaced. 
 As an enthusiast I am interested in how the learning is changing as technology advances, It is also a good way to document for myself the evolution of bioinformatics learning.
