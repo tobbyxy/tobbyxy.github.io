@@ -1,5 +1,5 @@
 ---
-layout: interests
+layout: page
 permalink: /interests/
 title: interests
 description: collection of things currently lighting my fire
