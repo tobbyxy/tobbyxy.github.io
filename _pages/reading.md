@@ -1,5 +1,5 @@
 ---
-layout: reading
+layout: page
 permalink: /reading/
 title: reading
 description: Every now and then i stumble on something interesting that's usually worth rereading.
