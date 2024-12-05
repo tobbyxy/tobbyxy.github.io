@@ -33,7 +33,7 @@ In this example we can calculate the Z statistics, and use it to test our null h
 
 z = -1.75
 
-```R
+```r
 library(ggplot2)
 
 # Set parameters
