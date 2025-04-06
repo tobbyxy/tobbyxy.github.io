@@ -1,6 +1,6 @@
 ---
 layout: post
-title: T
+title: True understanding is not cheap
 date: 2025-04-06 20:01:00
 description: 
 tags: thoughts
