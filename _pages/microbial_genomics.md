@@ -33,3 +33,12 @@ ibg.colorado.edu
 
 ## treeWas
 
+## Resources
+Cogniterra Bioinformatics Algorithm
+Phylogenetics in the genomic era
+Mortimer Lab page
+John Lees web page https://www.bacpop.org/research/
+Gtonkinhill https://gthlab.au/about/
+
+
+
