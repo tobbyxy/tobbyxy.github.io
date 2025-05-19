@@ -30,7 +30,8 @@ ggCaller combines gene prediction, functional annotation, and clustering into a 
 ibg.colorado.edu
 
 ## pyseer
-kmer based GWAS method that allows for different methods of association test
+kmer based GWAS method that allows for different methods of association test.
+Unitig and mixed effect is recommended
 
 We wish to test the hypothesis $$ b_j = 0 $$ within the linear mixed model:
 
@@ -51,10 +52,18 @@ We test whether the fixed effect coefficient \( b_j \) associated with the varia
 
 ## treeWas
 A phylogenetic based GWAS microbial method that infers both the ancestral phenotype and genotype states at each internal node of the phylogeny, before computing three association test statistics:
+
+
 Terminal Score: It measures sample-wide phenotype-genotype associations between leaves of the phylogeny.
 Simultaneous Score: It measures parallel changes in both phenotype and genotype on phylogeny branches.
 Subsequent Score: It measures the proportion of the tree within which genotype and phenotype ‘co-exist’. It is equivalent to integrating association scores over all tree nodes.
 For each sore, a significance threshold was estimated from null simulations of genetic data at 10 times as many sites as the observed dataset.
+
+## phylogeny reconstruction
+
+iqtree
+ClonalFrameML
+
 
 ## Resources
 Cogniterra Bioinformatics Algorithm
