@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 ## Panaroo
-# Tonkin-Hill, G., MacAlasdair, N., Ruis, C. et al. "Producing polished prokaryotic pangenomes with the Panaroo pipeline." Genome Biol 21(180) (2020). https://doi.org/10.1186/s13059-020-02090-4
+### Tonkin-Hill, G., MacAlasdair, N., Ruis, C. et al. "Producing polished prokaryotic pangenomes with the Panaroo pipeline." Genome Biol 21(180) (2020). https://doi.org/10.1186/s13059-020-02090-4
 panaroo is a graph algorithm for pangenome reconstruction. it takes in gff file as input and outputs pangenome reference, gene presence absence file.
 one its assumptions is that the genomes are closely related to each other i.e the same species.
 
