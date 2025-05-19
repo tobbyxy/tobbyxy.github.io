@@ -30,6 +30,23 @@ ggCaller combines gene prediction, functional annotation, and clustering into a 
 ibg.colorado.edu
 
 ## pyseer
+kmer based GWAS method that allows for different methods of association test
+
+We wish to test the hypothesis $$ b_j = 0 $$ within the linear mixed model:
+
+\begin{equation}
+\label{eq:lmm}
+\mathbf{y} = \mathbf{x}_j b_j + \mathbf{g} + \mathbf{e}
+\end{equation}
+
+where:  
+- \( \mathbf{y} \) is a length-\( n \) phenotype vector,  
+- \( \mathbf{x}_j \) is the vector encoding alleles at the \( j \)th variant,  
+- \( \mathbf{g} \sim \mathcal{N}(0, \sigma_g^2 \mathbf{K}) \) is a vector of random genetic effects,  
+- \( \mathbf{e} \sim \mathcal{N}(0, \sigma_e^2 \mathbf{I}_n) \) is a vector of environmental noise,  
+- \( \mathbf{I}_n \) is the \( n \times n \) identity matrix.
+
+We test whether the fixed effect coefficient \( b_j \) associated with the variant \( \mathbf{x}_j \) is statistically different from zero, indicating an association with the phenotype
 
 
 ## treeWas
